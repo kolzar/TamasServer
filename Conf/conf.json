@@ -1,0 +1,13 @@
+{
+  "server": {
+    "port": 443,
+    "allowed_ip": "127.0.0.1",
+    "ssl_certificate": "cert.pem",
+    "ssl_key": "key.pem",
+    "max_connections": 10,
+    "resource_limits": {
+      "timeout": 60,
+      "max_requests_per_minute": 100
+    }
+  }
+}
